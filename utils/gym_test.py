@@ -4,8 +4,8 @@
 import gym
 from gym import wrappers
 
-from utils.seed import set_global_seeds
-from utils.atari_wrapper import wrap_deepmind, wrap_deepmind_ram
+from seed import set_global_seeds
+from atari_wrapper import wrap_deepmind, wrap_deepmind_ram
 
 def get_env(task, seed):
     env_id = task.env_id
